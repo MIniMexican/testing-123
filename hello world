@@ -1,1 +1,10 @@
-Print "hello world"
+
+input = raw_input('Enter a number:')
+
+if len(input) > 0:
+    print ("A number was not entered")
+  else times = raw_input ('Enter a number to times the last number by:')
+  
+answer = input * times
+print answer
+  
