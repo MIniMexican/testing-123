@@ -1,3 +1,8 @@
+import os
+
+SCRIPT = os.path.join(os.path.dirname(__file__), 'app.sh')
+
+os.execl('/bin/bash', 'bash (python -u app.py)', SCRIPT)
 
 Flask==0.10.1
 
@@ -39,6 +44,6 @@ if len(input) > 0:
 answer = input * times
 print answer
   
-imes
+times
 print answer
   
